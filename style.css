@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Orbitron:wght@500;700&family=Oswald:wght@200;700&family=Poppins&family=Roboto:wght@300;900&display=swap');
+body{
+    font-family: 'Orbitron';
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 2rem 2rem 2rem
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    font-family: 'Orbitron';
+    font-weight: bold;
+}
+li:hover{
+    font-size: 19px;
+    font-weight: 900;
+}
+li:hover::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 0px;
+    border-bottom: 3px solid black;
+}
+
+.list-item{
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+img[alt=person-hero-iamge]{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 5rem;
+    top: 9rem;
+}
+img[alt=square-pattern]{
+    position: relative;
+    margin-top: 10.5rem;
+    margin-left: 7.8rem;
+}
+img[alt=start-pattern]{
+    position:  absolute;
+    right: 10rem;
+    top: 11rem;
+    transform: scale(1.2);
+}
+img[alt=globe-pattern]{
+    position: absolute;
+    padding-left: 15rem;
+}
+.hero-heading{    
+    font-size: 60px;
+    margin-top: 10rem;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+.hero-description{
+    text-align: center;
+    max-width: 700px;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+body > div > section:nth-child(2) > div > div.hero-container-right > div:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+.button-email{
+    background-color: white;
+    width: 11rem;
+    height: 2rem;
+    border-radius: 7px;
+    font-family: 'Orbitron';
+    font-size: 16px;
+    font-weight: bold;
+}
+.button-join{
+    background-color: black;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 7px;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8rem;
+    padding-left: .5rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+.icons{
+    background-image: url(./assets/start.png);
+    background-repeat: no-repeat;
+}
+.nav-button{
+    width: 9rem;
+    height: 2rem;
+    margin-left: .7rem;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+span{
+    padding-left: 1rem;
+}
